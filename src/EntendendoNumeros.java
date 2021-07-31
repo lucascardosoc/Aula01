@@ -12,9 +12,10 @@ public class EntendendoNumeros {
         System.out.println("CALCULADORA");
         System.out.println("Por favor, digite um valor");
         valor1 = leitor.nextInt();
-        System.out.println("Por favor, digite mais um valor");
         
+        System.out.println("Por favor, digite mais um valor");
         valor2 = leitor.nextInt();
+        
         soma = valor1 + valor2;
         subtracao = valor1 - valor2;
         multiplicacao = valor1 * valor2;
@@ -24,7 +25,7 @@ public class EntendendoNumeros {
         System.out.println("Oresultado da subtrção foi " + subtracao);
         System.out.println("O produto da multiplicação foi " + multiplicacao);
         System.out.println("O resultado da divisão foi " + divisao);
-        
+        leitor.close();
         
 	}
 
